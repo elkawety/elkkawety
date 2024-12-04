@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>معرض الستائر والأركان</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: block;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 10px;
+        }
+
+        .section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            flex: 1 1 calc(33.333% - 20px);
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .card h3 {
+            margin: 10px 0;
+            padding: 0 10px;
+        }
+
+        .card p {
+            color: #555;
+            font-size: 14px;
+            padding: 0 10px 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>معرض الستائر والأركان</h1>
+        <p>اكتشف أفضل التصاميم لدينا</p>
+    </header>
+    <nav>
+        <a href="#curtains">ستائر</a>
+        <a href="#corners">أركان</a>
+        <a href="#contact">اتصل بنا</a>
+    </nav>
+    <div class="container">
+        <section id="curtains" class="section">
+            <h2>الستائر</h2>
+            <div class="section">
+                <div class="card">
+                    <img src="1.jpg" alt="ستارة 1">
+                    <h3>ستارة 1</h3>
+                    <p>تصميم أنيق يناسب جميع الأذواق</p>
+                </div>
+                <div class="card">
+                    <img src="2.jpg" alt="ستارة 2">
+                    <h3>ستارة 2</h3>
+                    <p>اختيار مثالي للمساحات العصرية</p>
+                </div>
+                <div class="card">
+                    <img src="3.jpg" alt="ستارة 3">
+                    <h3>ستارة 3</h3>
+                    <p>لمسة فخامة تقليدية</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="corners" class="section">
+            <h2>الأركان</h2>
+            <div class="section">
+                <div class="card">
+                    <img src="4.jpg" alt="ركن 1">
+                    <h3>ركن 1</h3>
+                    <p>راحة وأناقة في مكان واحد</p>
+                </div>
+                <div class="card">
+                    <img src="5.jpg" alt="ركن 2">
+                    <h3>ركن 2</h3>
+                    <p>تصميم كلاسيكي يناسب كل البيوت</p>
+                </div>
+                <div class="card">
+                    <img src="6.jpg" alt="ركن 3">
+                    <h3>ركن 3</h3>
+                    <p>مرونة وتوفير للمساحة</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer id="contact">
+        <p>المهندس احمد الكويتي </p>
+        <p>للتواصل معنا: 01009152289</p>
+        <p>&copy; 2024 معرض الستائر والأركان</p>
+    </footer>
+</body>
+
+</html>
